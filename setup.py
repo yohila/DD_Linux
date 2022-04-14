@@ -14,12 +14,9 @@ setup(
    	description="The package provides many procedures for calculating the depth of points in an empirical distribution for many notions of data depth",
    	long_description="The package provides many procedures for calculating the depth of points in an empirical distribution for many notions of data depth",
    	long_description_content_type="text/markdown",
+	platforms=['linux'],
    	url="https://github.com/pypa",
-   	platforms='linux',
     	packages=find_packages(),
-    	ext_modules=[
-        
-   	 ],
     	include_package_data=True,
   	package_data={"depth": ['ddalpha.so','depth_wrapper.so']},
    	zip_safe=False,
